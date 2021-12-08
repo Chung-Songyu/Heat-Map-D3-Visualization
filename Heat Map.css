@@ -1,0 +1,69 @@
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: rgba(70, 55, 5, 0.1);
+  color: rgba(70, 55, 5, 1);
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#title {
+  margin: 15px 0px 0px 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#description {
+  margin: 0px 0px 25px 0px;
+  font-weight: bold;
+}
+
+#container {
+  position: relative;
+}
+
+svg {
+  border: 2px brown solid;
+  background-color: rgba(70, 55, 5, 0.1);
+  box-shadow: 0 12px 22px rgba(0,0,0,0.30), 0 6px 7px rgba(0,0,0,0.34);
+  margin: 0px 0px 20px 0px;
+}
+
+#tooltip {
+  position: absolute;
+  font-size: 18px;
+  background-color: rgba(240, 240, 240, 1);
+  padding: 5px 10px 5px 10px;
+  box-shadow: 0 9px 19px rgba(0,0,0,0.30), 0 5px 5px rgba(0,0,0,0.34);
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.hidden {
+  display: none;
+}
+
+#legend {
+  position: absolute;
+}
+
+#legend-x-axis, #x-axis, #y-axis {
+  font-size: 12px;
+}
+
+#xAxisLabel, #yAxisLabel {
+  fill: rgba(70, 55, 5, 1);
+}
+
+.cell {
+  stroke: rgba(150, 150, 150, 1);
+}
+
+@media (min-width: 320px) and (max-width: 1650px) {
+  body {
+    height: 950px;
+    width: 1650px;
+  }
+}
