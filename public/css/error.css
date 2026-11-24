@@ -1,0 +1,12 @@
+/* Error Page */
+body {
+    background-color: rgba(70, 55, 5, 0.1);
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    font-size: 24px;
+}

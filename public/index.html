@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heat Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Downloaded full SVG from Font Awesome as favicon -->
+    <link rel="icon" type="image/svg+xml" href="/temperature-high-solid-full.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- D3.js v7.9.2 https://d3js.org/getting-started#d3-in-vanilla-html -->
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+</head>
+
+<body>
+    <div id="title">Monthly Global Land-Surface Temperature (°C)</div>
+    <div id="description">1753 - 2015</div>
+
+    <!-- Heat Map -->
+    <div id="container"></div>
+    <div id="error" hidden></div>
+
+    <!-- Script -->
+    <script src="/js/main.js"></script>
+    <!-- FCC Test Script -->
+    <!--<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+</body>
+</html>
